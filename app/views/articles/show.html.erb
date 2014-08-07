@@ -9,10 +9,10 @@
 </p>
 
 <h2>Comments</h2>	
-	<% render @articles.comments %>
+	<%= render @article.comments %>
 
 <h2>Add a comment!</h2>
-	<% render 'comments/form' %>
+	<%=render 'comments/form' %>
 
 </br>
 <h4><%= link_to 'Back', articles_path %></h4>
